@@ -81,7 +81,7 @@ def display_hangman(tries):
     ]
     return stages[tries]
 
-def hangman():
+def index():
     word = choose_word()
     guessed_letters = []
     tries = 0
